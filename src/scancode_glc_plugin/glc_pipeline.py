@@ -6,7 +6,7 @@ from scancode_glc_plugin.pipes import glc
 
 class LicenseClassifierScan(scan_codebase.ScanCodebase):
     """
-    A pipeline to scan a codebase with GoLicense-Classifier for Copyright and License Details
+    Pipeline to scan codebase for Copyright and License Details
     """
 
     @classmethod
