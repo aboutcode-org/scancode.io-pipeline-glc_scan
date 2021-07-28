@@ -19,7 +19,8 @@
 #
 
 from scanpipe.pipelines import scan_codebase
-from scanpipe.pipes import make_codebase_resource, rootfs
+from scanpipe.pipes import make_codebase_resource
+from scanpipe.pipes import rootfs
 
 from scancode_glc_plugin.pipes import glc
 

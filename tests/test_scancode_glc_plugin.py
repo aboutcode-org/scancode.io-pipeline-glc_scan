@@ -29,6 +29,7 @@ from LicenseClassifier.classifier import LicenseClassifier
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scancodeio.settings")
 os.environ.setdefault("SECRET_KEY", get_random_secret_key())
 setup()
+
 from scancode_glc_plugin.pipes import glc
 
 
