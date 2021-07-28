@@ -21,4 +21,4 @@ Clone the repository::
 .. code-block:: bash
 
     ./configure --dev
-    tmp/bin/python -m unittest discover
+    venv/bin/python runtests.py
