@@ -20,17 +20,11 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Install dependencies
-        run: make dev
-
-      - name: Fetch ScanCode.io Instance
-        run: . bin/activate; pip install git+https://github.com/nexb/scancode.io.git
-
-      - name: Validate code format
-        run: make check
+      - name: Configure in dev mode (includes testing dependencies)
+        run: ./configure --dev
 
       - name: Build the documentation
         run: make docs
 
       - name: Run tests
-        run: bin/python -m unittest discover
+        run: tmp/bin/python -m unittest discover

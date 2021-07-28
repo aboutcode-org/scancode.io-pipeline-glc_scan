@@ -1,2 +1,0 @@
-# GoLicense-Classifier
-golicense_classifier==0.0.14
