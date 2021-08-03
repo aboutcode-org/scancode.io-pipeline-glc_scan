@@ -159,7 +159,7 @@ CFG_REQUIREMENTS=$REQUIREMENTS
 case "$CLI_ARGS" in
     --help)    cli_help;;
     --clean)   clean;;
-    --dev)     CFG_REQUIREMENTS="$DEV_REQUIREMENTS" && CFG_DEV_MODE=1;;
+    --dev)     CFG_REQUIREMENTS="$DEV_REQUIREMENTS scancodeio@git+https://github.com/nexb/scancode.io.git" && CFG_DEV_MODE=1;;
 esac
 
 create_virtualenv "$VIRTUALENV_DIR"
