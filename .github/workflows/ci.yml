@@ -23,6 +23,9 @@ jobs:
       - name: Configure in dev mode (includes testing dependencies)
         run: ./configure --dev
 
+      - name: Fetch ScanCode.io instance
+        run:  venv/bin/pip install scancodeio@git+https://github.com/nexb/scancode.io.git
+
       - name: Build the documentation
         run: make docs
 
