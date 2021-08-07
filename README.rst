@@ -1,7 +1,9 @@
 Google Licenseclassifier pipeline for ScanCode.io
 =================================================
 
-This package contributes a new pipeline to ScanCode.io. It is based on https://github.com/AvishrantsSh/GoLicense-Classifier.
+This package contributes a new pipeline to ScanCode.io. 
+
+Based on https://github.com/AvishrantsSh/GoLicense-Classifier.
 
 Install as plug-in
 -------------------
@@ -10,7 +12,7 @@ To use Google Licenseclassifier pipeline in your local ScanCode.io instance, use
 
 .. code-block:: bash
 
-    pip install scancodeio.io-pipeline-glc_scan
+    pip install scancodeio_glc_plugin
 
 Development
 -----------
@@ -28,7 +30,14 @@ and, set up your development environment using
 
     ./configure --dev
 
-To run unit tests, use
+Once the setup is complete, fetch the latest scancode.io instance using
+
+.. code-block:: bash
+
+    vemv/bin/pip install scancodeio@git+https://github.com/nexb/scancode.io.git 
+
+
+Once the environment is set up, you can run the tests using
 
 .. code-block:: bash
 

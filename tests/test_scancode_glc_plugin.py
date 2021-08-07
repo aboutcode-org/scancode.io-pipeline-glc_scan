@@ -18,7 +18,6 @@
 # limitations under the License.
 #
 
-import os
 import unittest
 from pathlib import Path
 
