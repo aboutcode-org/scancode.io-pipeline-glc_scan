@@ -34,7 +34,7 @@ Once the setup is complete, fetch the latest scancode.io instance using
 
 .. code-block:: bash
 
-    vemv/bin/pip install scancodeio@git+https://github.com/nexb/scancode.io.git 
+    venv/bin/pip install scancodeio@git+https://github.com/nexb/scancode.io.git 
 
 
 Once the environment is set up, you can run the tests using
