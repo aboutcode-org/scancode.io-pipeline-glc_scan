@@ -21,8 +21,7 @@ To get started, clone the repository
 
 .. code-block:: bash
         
-        git clone https://github.com/nexB/scancodeio.io-pipeline-glc_scan.git
-
+        git clone https://github.com/nexB/scancode.io-pipeline-glc_scan.git
 
 and, set up your development environment using
 
