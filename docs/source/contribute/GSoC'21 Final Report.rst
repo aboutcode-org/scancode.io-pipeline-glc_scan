@@ -57,8 +57,8 @@ Building Python wrapper and generating License Key Mappings
 
 Developing a pipeline to run license detection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- After developing the package, it was necessary to develop a pipeline that can be used to
-  establish communication with ScanCode.io.
+- After developing the package, it was necessary to integrate it into a pipeline that can be used
+  to execute the License Classifier from the ScanCode.io app.
 
 - The pipeline's task was to validate the output of the package and to handle the data transaction
   to ScanCode.io models.
@@ -69,7 +69,7 @@ Packaging the pipeline and deploying to PyPI
 
 - It involved configuring package files, manifests, setup configurations etc.
 
-- Final pipeline package available at `Scancode.io GLC Plugin`_
+- Final pipeline package is available at `Scancode.io GLC Plugin`_
 
 Challenges
 ----------
