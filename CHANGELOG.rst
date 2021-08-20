@@ -1,8 +1,15 @@
 Changelog
 =========
 
+v0.0.2
+-------
 
-v0.0.0
-------
+- Upgrade GoLicense-Classifier to version 0.0.16
+  
+- Update README instructions.
 
-*xxxx-xx-xx* -- Initial release.
+- Add new document section regarding GSoC Report.
+
+- Add new test case ``test_scanpipe_pipes_glc_scan_and_update_codebase_resources``.
+
+- Update unittest framework to django testing framework

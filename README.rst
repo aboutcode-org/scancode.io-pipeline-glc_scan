@@ -22,10 +22,6 @@ install the python package from PyPI using
 
 The newly installed pipeline will now be available for use in ScanCode.io.
 
-.. image:: ./docs/source/images/scancodeio_ui.png
-    :width: 75%
-    :alt: ScanCode.io UI
-
 Development
 -----------
 
