@@ -148,7 +148,7 @@ Links
 .. _Thomas Druez: https://github.com/tdruez
 .. _Tushar Goel: https://github.com/TG1999
 
-.. _ScanCode.io: https://github.com/nexb/scancode.io
+.. _ScanCode.io: https://github.com/aboutcode-org/scancode.io
 .. _Google License Classifier v2: https://pkg.go.dev/github.com/google/licenseclassifier/v2
 .. _GoLicense-Classifier: https://pypi.org/project/golicense-classifier/
 .. _Scancode.io GLC Plugin: https://pypi.org/project/scancodeio-glc-plugin/

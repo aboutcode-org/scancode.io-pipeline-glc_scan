@@ -3,31 +3,33 @@ name: CI
 on: [push, pull_request]
 
 jobs:
-  build:
-    runs-on: ubuntu-20.04
+    build:
+        runs-on: ubuntu-20.04
 
-    strategy:
-      max-parallel: 4
-      matrix:
-        python-version: [3.6, 3.7, 3.8, 3.9]
+        strategy:
+            max-parallel: 4
+            matrix:
+                python-version: [3.6, 3.7, 3.8, 3.9]
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
+            - name: Set up Python ${{ matrix.python-version }}
+              uses: actions/setup-python@v2
+              with:
+                  python-version: ${{ matrix.python-version }}
 
-      - name: Configure in dev mode (includes testing dependencies)
-        run: ./configure --dev
+            - name: Configure in dev mode (includes testing dependencies)
+              run: ./configure --dev
 
-      - name: Fetch ScanCode.io instance
-        run:  venv/bin/pip install scancodeio@git+https://github.com/nexb/scancode.io.git
+            - name: Fetch ScanCode.io instance
+              run:
+                  venv/bin/pip install
+                  scancodeio@git+https://github.com/aboutcode-org/scancode.io.git
 
-      - name: Build the documentation
-        run: make docs
+            - name: Build the documentation
+              run: make docs
 
-      - name: Run tests
-        run: venv/bin/python runtests.py
+            - name: Run tests
+              run: venv/bin/python runtests.py

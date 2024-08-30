@@ -38,7 +38,7 @@ to ensure that all the dependencies of the pipeline are met.
 
 .. code-block:: bash
 
-    venv/bin/pip install scancodeio@git+https://github.com/nexb/scancode.io.git
+    venv/bin/pip install scancodeio@git+https://github.com/aboutcode-org/scancode.io.git
 
 
 Once the environment is set up, run the test suite to ensure that everything is in
