@@ -2,7 +2,7 @@
 # Copyright (c) nexB Inc. and others.
 # SPDX-License-Identifier: Apache-2.0
 #
-# Visit https://aboutcode.org and https://github.com/nexB/ for support and download.
+# Visit https://aboutcode.org and https://github.com/aboutcode-org/ for support and download.
 # ScanCode is a trademark of nexB Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -27,6 +27,7 @@ from scancode_glc_plugin.pipes import glc
 from scanpipe.models import Project
 from scanpipe.models import CodebaseResource
 from scanpipe.pipes.input import copy_inputs
+
 
 class GLCPipeTest(TestCase):
     data_location = Path(__file__).parent / "data"
@@ -91,7 +92,8 @@ class GLCPipeTest(TestCase):
         self.assertEqual("scanned-with-error", codebase_resource1.status)
         self.assertEqual(2, project1.projecterrors.count())
 
-        copy_inputs([self.data_location / "apache-1.1.txt"], project1.codebase_path)
+        copy_inputs([self.data_location / "apache-1.1.txt"],
+                    project1.codebase_path)
         codebase_resource2 = CodebaseResource.objects.create(
             project=project1, path="apache-1.1.txt"
         )
@@ -119,6 +121,7 @@ class GLCPipeTest(TestCase):
             ],
         }
 
-        self.assertEqual(expected["licenses"], codebase_resource2.license_expressions)
+        self.assertEqual(expected["licenses"],
+                         codebase_resource2.license_expressions)
         self.assertEqual(expected["copyrights"], codebase_resource2.copyrights)
         self.assertEqual(expected["holders"], codebase_resource2.holders)

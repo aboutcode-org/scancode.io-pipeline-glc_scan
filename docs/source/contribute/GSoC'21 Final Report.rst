@@ -131,18 +131,18 @@ Links
 6. `GoLicense-Classifier Source Code`_
 7. `ScanCode.io GLC Plugin Source Code`_
 
-.. _#146: https://github.com/nexB/ScanCode.io/pull/146
-.. _#158: https://github.com/nexB/ScanCode.io/pull/158
-.. _#276: https://github.com/nexB/ScanCode.io/pull/276
-.. _#291: https://github.com/nexB/scancode.io/pull/291
-.. _#297: https://github.com/nexB/scancode.io/pull/297
-.. _#1: https://github.com/nexB/ScanCode.io-pipeline-glc_scan/pull/1
+.. _#146: https://github.com/aboutcode-org/ScanCode.io/pull/146
+.. _#158: https://github.com/aboutcode-org/ScanCode.io/pull/158
+.. _#276: https://github.com/aboutcode-org/ScanCode.io/pull/276
+.. _#291: https://github.com/aboutcode-org/scancode.io/pull/291
+.. _#297: https://github.com/aboutcode-org/scancode.io/pull/297
+.. _#1: https://github.com/aboutcode-org/ScanCode.io-pipeline-glc_scan/pull/1
 
-.. _#224: https://github.com/nexB/ScanCode.io/issues/224
-.. _#230: https://github.com/nexB/ScanCode.io/issues/230
-.. _#2596: https://github.com/nexB/ScanCode-toolkit/issues/2596
-.. _#2593: https://github.com/nexB/ScanCode-toolkit/issues/2593
-.. _#34: https://github.com/nexB/container-inspector/issues/34
+.. _#224: https://github.com/aboutcode-org/ScanCode.io/issues/224
+.. _#230: https://github.com/aboutcode-org/ScanCode.io/issues/230
+.. _#2596: https://github.com/aboutcode-org/ScanCode-toolkit/issues/2596
+.. _#2593: https://github.com/aboutcode-org/ScanCode-toolkit/issues/2593
+.. _#34: https://github.com/aboutcode-org/container-inspector/issues/34
 
 .. _Philippe Ombredanne: https://github.com/pombredanne
 .. _Thomas Druez: https://github.com/tdruez
@@ -152,6 +152,6 @@ Links
 .. _Google License Classifier v2: https://pkg.go.dev/github.com/google/licenseclassifier/v2
 .. _GoLicense-Classifier: https://pypi.org/project/golicense-classifier/
 .. _Scancode.io GLC Plugin: https://pypi.org/project/scancodeio-glc-plugin/
-.. _ScanCode.io GLC Plugin Source Code: https://github.com/nexB/scancode.io-pipeline-glc_scan
+.. _ScanCode.io GLC Plugin Source Code: https://github.com/aboutcode-org/scancode.io-pipeline-glc_scan
 .. _GoLicense-Classifier Source Code: https://github.com/AvishrantsSh/GoLicense-Classifier/
 .. _Google License Classifier with cgo bindings: https://github.com/AvishrantsSh/cgo_licenseclassifier
